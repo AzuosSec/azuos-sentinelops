@@ -1,0 +1,6 @@
+<svg width="320" height="96" viewBox="0 0 320 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Azuos logo">
+  <rect width="320" height="96" rx="16" fill="#020617"/>
+  <path d="M44 24L24 72H36L40 62H60L64 72H76L56 24H44ZM44 52L50 37L56 52H44Z" fill="#22D3EE"/>
+  <text x="92" y="58" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" letter-spacing="1.5">AZUOS</text>
+  <text x="94" y="78" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="2">SECOPS INTELLIGENCE</text>
+</svg>

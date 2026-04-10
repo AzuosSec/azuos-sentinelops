@@ -99,7 +99,7 @@ export default function AzuosSecOpsWebpage() {
       <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-black/70 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <div className="flex items-center gap-3">
-            <img src="/AZUOS.png" alt="Azuos Logo" className="h-10 w-auto" />
+            <img src="/AZUOS.svg" alt="Azuos Logo" className="h-10 w-auto" />
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-cyan-300">Azuos</p>
               <p className="text-sm text-slate-300">SecOps Intelligence</p>
@@ -126,7 +126,7 @@ export default function AzuosSecOpsWebpage() {
               Inteligência para Operações Críticas
             </div>
 
-            <img src="/AZUOS.png" alt="Azuos" className="mb-8 h-20 w-auto drop-shadow-[0_0_24px_rgba(34,211,238,0.18)]" />
+            <img src="/AZUOS.svg" alt="Azuos" className="mb-8 h-20 w-auto drop-shadow-[0_0_24px_rgba(34,211,238,0.18)]" />
 
             <h1 className="max-w-4xl text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl">
               Antecipe riscos, reduza perdas e transforme dados operacionais em decisão estratégica.

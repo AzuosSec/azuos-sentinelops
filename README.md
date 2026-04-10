@@ -19,3 +19,8 @@ Plataforma de gestão de incidentes, segurança patrimonial, safety e inspeçõe
 - `src/components/AzuosSecOpsWebpage.jsx`: landing page completa.
 - `src/App.jsx`: entry da aplicação.
 - `src/main.jsx`: bootstrap React + mount no DOM.
+
+
+## Assets
+
+- `public/AZUOS.svg`: logo padrão usada no cabeçalho e hero da landing page.
