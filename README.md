@@ -14,4 +14,8 @@ Plataforma de gestão de incidentes, segurança patrimonial, safety e inspeçõe
    ```
 3. Abra a URL exibida no terminal (por padrão `http://localhost:5173`).
 
-A página de prévia carrega o componente `AzuosSecOpsWebpage` com o layout completo da landing page.
+## Estrutura principal
+
+- `src/components/AzuosSecOpsWebpage.jsx`: landing page completa.
+- `src/App.jsx`: entry da aplicação.
+- `src/main.jsx`: bootstrap React + mount no DOM.
