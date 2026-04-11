@@ -1,6 +1,6 @@
 # Deploy público da landing page
 
-Este projeto usa Vite + React. A forma mais simples de gerar um link público é publicar em uma dessas opções:
+Este projeto usa Vite + React.
 
 ## 1) Vercel (recomendado)
 
@@ -12,7 +12,7 @@ Este projeto usa Vite + React. A forma mais simples de gerar um link público é
 6. Output directory: `dist`
 7. Clique em **Deploy**.
 
-Ao final, a Vercel gera uma URL pública (ex.: `https://azuos-sentinelops.vercel.app`).
+Ao final, a Vercel gera uma URL pública.
 
 ## 2) Netlify
 
@@ -23,14 +23,12 @@ Ao final, a Vercel gera uma URL pública (ex.: `https://azuos-sentinelops.vercel
 5. Publish directory: `dist`
 6. Deploy.
 
-Ao final, a Netlify gera uma URL pública (ex.: `https://seu-site.netlify.app`).
+Ao final, a Netlify gera uma URL pública.
 
 ## 3) Visualização local na rede
-
-Para abrir em outros dispositivos da mesma rede local:
 
 ```bash
 npm run dev:host
 ```
 
-Depois use o link de **Network** mostrado no terminal (ex.: `http://192.168.0.15:4173`).
+Depois acesse `http://<seu-ip-local>:4173`.
