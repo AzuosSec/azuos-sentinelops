@@ -4,21 +4,11 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "dev:host": "vite --host --port 4173",
-    "build": "vite build",
-    "preview": "vite preview --host --port 4173"
+    "dev": "python3 -m http.server 5173 --bind 0.0.0.0 --directory site",
+    "dev:host": "python3 -m http.server 4173 --bind 0.0.0.0 --directory site",
+    "build": "mkdir -p dist && cp site/index.html dist/index.html",
+    "preview": "python3 -m http.server 4173 --bind 0.0.0.0 --directory dist"
   },
-  "dependencies": {
-    "lucide-react": "^0.542.0",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^5.0.4",
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.17",
-    "vite": "^7.1.5"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }

@@ -4,22 +4,18 @@ Plataforma de gestão de incidentes, segurança patrimonial, safety e inspeçõe
 
 ## Prévia do site (local)
 
-1. Instale as dependências:
+1. Instale os pacotes npm:
    ```bash
    npm install
    ```
-2. Rode o servidor de desenvolvimento:
+2. Rode a prévia:
    ```bash
-   npm run dev
+   npm run dev:host
    ```
-3. Abra a URL exibida no terminal (por padrão `http://localhost:5173`).
+3. Abra `http://localhost:4173`.
 
 ## Estrutura principal
 
-- `src/components/AzuosSecOpsWebpage.jsx`: landing page completa.
-- `src/App.jsx`: entry da aplicação.
-- `src/main.jsx`: bootstrap React + mount no DOM.
-
-## Assets
-
-- `public/AZUOS.svg`: logo padrão usada no cabeçalho e hero da landing page.
+- `site/index.html`: landing page estática pronta para visualização imediata.
+- `src/components/AzuosSecOpsWebpage.jsx`: versão React da landing page (referência de desenvolvimento).
+- `DEPLOY.md`: instruções de publicação.
