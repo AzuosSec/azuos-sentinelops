@@ -14,6 +14,11 @@ Plataforma de gestão de incidentes, segurança patrimonial, safety e inspeçõe
    ```
 3. Abra a URL exibida no terminal (por padrão `http://localhost:5173`).
 
+### Prévia sem dependências (recomendado neste ambiente)
+
+Use `npm run dev:host` para subir uma prévia estática em `http://localhost:4173` sem instalar pacotes npm.
+
+
 ## Estrutura principal
 
 - `src/components/AzuosSecOpsWebpage.jsx`: landing page completa.
