@@ -20,12 +20,6 @@ Plataforma de gestão de incidentes, segurança patrimonial, safety e inspeçõe
 - `src/App.jsx`: entry da aplicação.
 - `src/main.jsx`: bootstrap React + mount no DOM.
 
-## Scripts úteis
-
-- `npm run dev:host`: roda em `0.0.0.0:4173` para teste em rede local.
-- `npm run build`: gera produção em `dist/`.
-- `npm run preview`: serve o build de produção em `0.0.0.0:4173`.
-
 ## Assets
 
 - `public/AZUOS.svg`: logo padrão usada no cabeçalho e hero da landing page.
